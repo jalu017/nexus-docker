@@ -47,14 +47,6 @@ services:
     tty: true
     command: start --node-id 22106485 --max-threads 1
 
-  nexus_node_12068527:
-    image: nexusxyz/nexus-cli:latest
-    network_mode: host
-    container_name: nexus_node_12068527
-    cpus: 2
-    tty: true
-    command: start --node-id 12068527 --max-threads 1
-
   nexus_node_22017965:
     image: nexusxyz/nexus-cli:latest
     network_mode: host
