@@ -1,11 +1,11 @@
 services:
-  nexus_node_19134585:
+  nexus_node_22162148:
     image: nexusxyz/nexus-cli:latest
     network_mode: host
-    container_name: nexus_node_19134585
+    container_name: nexus_node_22162148
     cpus: 0.5
     tty: true
-    command: start --node-id 19134585 --max-threads 1
+    command: start --node-id 22162148 --max-threads 1
 
   nexus_node_22189751:
     image: nexusxyz/nexus-cli:latest
@@ -15,14 +15,6 @@ services:
     tty: true
     command: start --node-id 22189751 --max-threads 1
 
-  nexus_node_22246673:
-    image: nexusxyz/nexus-cli:latest
-    network_mode: host
-    container_name: nexus_node_22246673
-    cpus: 0.5
-    tty: true
-    command: start --node-id 22246673 --max-threads 1
-
   nexus_node_22189752:
     image: nexusxyz/nexus-cli:latest
     network_mode: host
@@ -31,13 +23,21 @@ services:
     tty: true
     command: start --node-id 22189752 --max-threads 1
 
-  nexus_node_22018006:
+  nexus_node_22246673:
     image: nexusxyz/nexus-cli:latest
     network_mode: host
-    container_name: nexus_node_22018006
+    container_name: nexus_node_22246673
     cpus: 0.5
     tty: true
-    command: start --node-id 22018006 --max-threads 1
+    command: start --node-id 22246673 --max-threads 1
+
+  nexus_node_22312870:
+    image: nexusxyz/nexus-cli:latest
+    network_mode: host
+    container_name: nexus_node_22312870
+    cpus: 0.5
+    tty: true
+    command: start --node-id 22312870 --max-threads 1
 
   nexus_node_22106485:
     image: nexusxyz/nexus-cli:latest
